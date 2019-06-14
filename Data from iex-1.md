@@ -26,6 +26,8 @@ df.columns = df.iloc[0].values
 df.to_excel('raw_balanceSheet.xlsx')
 display(df)
 ```
+x|c|V|
+---|---|---
 </style>
 <table border="1" class="dataframe">
   <thead>
