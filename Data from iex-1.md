@@ -8,7 +8,7 @@ import requests as req
 
 ```python
 r = req.get('https://cloud.iexapis.com/stable/'+
-            'stock/aapl/balance-sheet/4?token='Your_Token_here'&period=annual')
+            'stock/aapl/balance-sheet/4?token='>Your_Token_here'&period=annual')
 ```
 
 
@@ -46,12 +46,10 @@ display(df)
 | totalCurrentLiabilities |  $116,866,000,000.00  |  $100,814,000,000.00  |  $79,006,000,000.00   |  $80,610,000,000.00   | 
 | longTermDebt            |  $93,735,000,000.00   |  $97,207,000,000.00   |  $75,427,000,000.00   |  $53,463,000,000.00   | 
 | otherLiabilities        |  $4,268,000,000.00    |  $3,340,000,000.00    |  $4,285,000,000.00    |  $4,789,000,000.00    | 
-| minorityInterest        |  $-                   |  $-                   |  $-                   |  $-                   | 
+| minorityInterest        |  $0                   |  $0                   |  $0                   |  $0                   | 
 | totalLiabilities        |  $258,578,000,000.00  |  $241,272,000,000.00  |  $193,437,000,000.00  |  $171,124,000,000.00  | 
 | commonStock             |  $40,201,000,000.00   |  $35,867,000,000.00   |  $31,251,000,000.00   |  $27,416,000,000.00   | 
 | retainedEarnings        |  $70,400,000,000.00   |  $98,330,000,000.00   |  $96,364,000,000.00   |  $92,284,000,000.00   | 
-| treasuryStock           |                       |                       |                       |                       | 
-| capitalSurplus          |                       |                       |                       |                       | 
 | shareholderEquity       |  $107,147,000,000.00  |  $134,047,000,000.00  |  $128,249,000,000.00  |  $119,355,000,000.00  | 
 | netTangibleAssets       |  $107,147,000,000.00  |  $115,006,000,000.00  |  $108,409,000,000.00  |  $100,898,000,000.00  | 
 
