@@ -8,7 +8,7 @@ import requests as req
 
 ```python
 r = req.get('https://cloud.iexapis.com/stable/'+
-            'stock/aapl/balance-sheet/4?token='>Your_Token_here'&period=annual')
+            'stock/aapl/balance-sheet/4?token=**Your_Token_here**&period=annual')
 ```
 
 
